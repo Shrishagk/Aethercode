@@ -1,0 +1,21 @@
+# Secret keys - never commit
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Cloned repos - too large, not needed
+cloned_repos/
+
+# FAISS index files
+*.index
+
+# Virtual environment
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
